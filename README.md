@@ -36,3 +36,5 @@
 # A classe Notebook reimplementa reimplementa o seguinte método herdado de computador.
 
 - getInformations()
+
+# Construir um arquivo do tipo .main com a utilização das classes construídas.
