@@ -1,14 +1,14 @@
-from Computador import Computador
+from Computer import Computer
 
-class Desktop(Computador):
-    def __init__(self, modelo, cor, preco, potenciaDaFonte):
-        super().__init__(modelo, cor, preco)
-        self.__potenciaDaFonte = potenciaDaFonte
+class Desktop(Computer):
+    def __init__(self, model, color, price, sourcePower):
+        super().__init__(model, color, price)
+        self.sourcePower = sourcePower
     
-    def getInformacoes(self):
-        informacoes = super().getInformacoes()
-        return f"{informacoes}\nPotência da Fonte: {self.__potenciaDaFonte}W"
+    def getInformations(self):
+        informations = super().getInformations()
+        return f"{informations}\nPotência da Fonte: {self.sourcePower}W"
     
-    def cadastrar(self):
-        print("Cadastro de Desktop realizado com sucesso!")
-        print(self.getInformacoes())
+    def register(self):
+        print("Cadastro de Desktop realizado com sucesso.")
+        print(self.getInformations())

@@ -1,4 +1,4 @@
-## Trabalho 01 - POO - Algoritmos e Estruturas de Dados 1
+## Trabalho 01 - Algoritmos e Estruturas de Dados 1
 
 ## Construir código necessário em Python para implementar o seguinte projeto: 
 

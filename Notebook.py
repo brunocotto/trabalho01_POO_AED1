@@ -1,14 +1,14 @@
-from Computador import Computador
+from Computer import Computer
 
-class Notebook(Computador):
-    def __init__(self, modelo, cor, preco, tempoDeBateria):
-        super().__init__(modelo, cor, preco)
-        self.__tempoDeBateria = tempoDeBateria
+class Notebook(Computer):
+    def __init__(self, model, color, price, batteryTime):
+        super().__init__(model, color, price)
+        self.__batteryTime = batteryTime
     
-    def getInformacoes(self):
-        informacoes = super().getInformacoes()
-        return f"{informacoes}\nTempo de Bateria: {self.__tempoDeBateria} horas"
+    def getInformations(self):
+        informations = super().getInformations()
+        return f"{informations}\nTempo de Bateria: {self.__batteryTime} horas"
     
-    def cadastrar(self):
-        print("Cadastro de Notebook realizado com sucesso!")
-        print(self.getInformacoes())
+    def register(self):
+        print("Cadastro de Notebook realizado com sucesso.")
+        print(self.getInformations())

@@ -1,10 +1,10 @@
 from Notebook import Notebook
 from Desktop import Desktop
 
-desktop = Desktop("Dell Optiplex", "Preto", 2500.0, 500)
-desktop.cadastrar()
+desktop = Desktop("PICHAU GAMER YDALIR", "Preto", 43448.00, 1200)
+desktop.register()
 
-print("-----------------------------------------------")
+print("-------------------------------------------")
 
-notebook = Notebook("HP Pavilion", "Prata", 3500.0, 8)
-notebook.cadastrar()
+notebook = Notebook("MacBook Pro", "Cinza", 9500.00, 16)
+notebook.register()
