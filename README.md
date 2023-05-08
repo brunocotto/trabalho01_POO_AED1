@@ -2,17 +2,17 @@
 
 ## Construir código necessário em Python para implementar o seguinte projeto: 
 
-# Uma classe abstrata chamada de Computador que contém os atributos/propriedades: 
+### Uma classe abstrata chamada de Computador que contém os atributos/propriedades: 
 
-- Modelo 
-- Cor
-- Preço 
+- Model
+- Color
+- Price 
 
-# Esta classe possui um método que retorna todos os valores dos atributos. 
+### Esta classe possui um método que retorna todos os valores dos atributos. 
 
 - getInformations()
 
-# Esta classe também possui um método abstrato: 
+### Esta classe também possui um método abstrato: 
 
 - register()
 
@@ -21,20 +21,20 @@
 - Desktop 
 - Notebook
 
-# A classe Desktop possui o atributo/propriedade fracamente privado
+### A classe Desktop possui o atributo/propriedade fracamente privado
 
-- potenciaDaFonte 
+- sourcePower 
 
-# A classe Desktop reimplementa o seguinte método herdado de computador.
-
-- getInformations()
-
-# A classe Notebook possui o atributo/propriedade fortemente privado:
-
-- tempoDeBateria 
-
-# A classe Notebook reimplementa reimplementa o seguinte método herdado de computador.
+### A classe Desktop reimplementa o seguinte método herdado de computador.
 
 - getInformations()
 
-# Construir um arquivo do tipo .main com a utilização das classes construídas.
+### A classe Notebook possui o atributo/propriedade fortemente privado:
+
+- batteryTime 
+
+### A classe Notebook reimplementa reimplementa o seguinte método herdado de computador.
+
+- getInformations()
+
+### Construir um arquivo do tipo .main com a utilização das classes construídas.
